@@ -1,0 +1,81 @@
+/* Menu */
+
+.bg-light {
+  background-color: #a8b6b9 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #605e61 !important;
+  font-size: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #605e61 !important;
+  font-size: 1.2em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 30px;
+}
+
+.dropdown-item, .dropdown-menu {
+  background-color: #e9ad99;
+  color: #605e61 !important;
+}
+
+.dropdown-divider {
+  border-color: #605e61 !important;
+}
+
+.navbar {
+  border-bottom: .5px #605e61 solid;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* General Page */
+
+body {
+  background-color: #e8c4aa;
+  color: #605e61;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 25px 0 25px 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 0 0 10px 0;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+h3 {
+  padding: 15px 0 10px 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: left;
+  border: #d99d90 dotted 8px;
+  padding: 5px;
+}
+
+#signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+strong {
+  font-weight: lighter;
+  font-size: 1.3em;
+}
