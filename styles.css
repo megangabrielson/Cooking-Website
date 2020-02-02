@@ -1,5 +1,4 @@
 /* Menu */
-
 .bg-light {
   background-color: #a8b6b9 !important;
 }
@@ -32,8 +31,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* General Page */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3f3d40 !important;
+}
 
+/* General Page */
 body {
   background-color: #e8c4aa;
   color: #605e61;
@@ -70,6 +72,11 @@ img {
   padding: 5px;
 }
 
+.col-lg img {
+  border: none;
+  padding: 0;
+}
+
 #signature {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
@@ -78,4 +85,87 @@ img {
 strong {
   font-weight: lighter;
   font-size: 1.3em;
+}
+
+footer {
+  background-color: #605e61;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+footer a {
+  color: #e0cfb6;
+}
+
+footer a:hover {
+  color: #e8c4aa;
+}
+
+a:hover {
+  text-decoration-line: none;
+  font-size: 1.1em;
+}
+
+img {
+  margin: 15px;
+}
+
+.hover-pic img {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  margin: 10px 10%;
+}
+
+/* Image transitions */
+.hover-pic {
+  cursor: pointer;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.hover-pic .content {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  color: gray;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 400px;
+  height: 400px;
+  padding: 40% 5px;
+  align-items: center;
+}
+
+.hover-pic:hover .content {
+  opacity: 0.8;
+}
+
+.hover-pic .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.hover-pic .text {
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.hover-pic:hover .text {
+  opacity: 1;
 }
