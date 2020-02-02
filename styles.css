@@ -67,7 +67,7 @@ h3 {
 
 img {
   width: 100%;
-  vertical-align: left;
+  vertical-align: center;
   border: #d99d90 dotted 8px;
   padding: 5px;
 }
@@ -80,6 +80,23 @@ img {
 #signature {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
+}
+
+#closer {
+  width: 10px;
+  align-items: center;
+  height: auto;
+  text-indent: 75px;
+}
+
+#closer strong {
+  margin-left: 75px;
+}
+
+#closer hr {
+  margin-top: 150px;
+  width: 400px;
+  text-align: center;
 }
 
 strong {
@@ -112,12 +129,12 @@ img {
 }
 
 .hover-pic img {
-  margin: 0;
+  margin: 5px 0;
 }
 
 p {
   text-align: center;
-  margin: 10px 10%;
+  margin: 10px 10px;
 }
 
 /* Image transitions */
@@ -168,4 +185,28 @@ p {
 
 .hover-pic:hover .text {
   opacity: 1;
+}
+
+.hover-pic {
+  margin: auto;
+}
+
+.arrow img {
+  background-size: contain;
+  height: 225px;
+  width: 100%;
+  transform: rotateZ(-40deg);
+  overflow: hidden;
+}
+
+.main {
+  margin: 0 200px;
+}
+
+.divider hr {
+  border: 3px gray solid;
+}
+
+.overview {
+  font-size: 1.2em;
 }
